@@ -88,10 +88,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &none     &none    &none   &none   &kp PAGE_UP      &none           &none           &none         &none            &none               &kp DELETE
-&trans  &kp HOME  &kp END  &none   &none   &kp PAGE_DOWN    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp K_CONTEXT_MENU  &trans
-&trans  &none     &none    &none   &none   &none            &none           &none           &none         &none            &none               &trans
-                           &trans  &trans  &trans           &trans          &trans          &trans
+&trans  &none     &none    &none   &none   &kp PAGE_UP      &none   &none           &kp UP_ARROW    &none            &none  &kp DELETE
+&trans  &kp HOME  &kp END  &none   &none   &kp PAGE_DOWN    &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &trans
+&trans  &none     &none    &none   &none   &none            &none   &none           &none           &none            &none  &trans
+                           &trans  &trans  &trans           &trans  &trans          &trans
             >;
         };
     };
