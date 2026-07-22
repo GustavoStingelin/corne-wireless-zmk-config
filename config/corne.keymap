@@ -66,10 +66,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans     &kp EXCLAMATION  &kp AT        &kp HASH       &kp DOLLAR        &kp PERCENT       &kp CARET        &kp AMPERSAND      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans     &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4      &kp N5            &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8      &kp NUMBER_9          &kp NUMBER_0           &none
-&kp TILDE  &kp KP_EQUAL     &kp PIPE      &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp KP_PLUS           &kp KP_MINUS           &none
-                                          &trans         &trans            &trans            &trans           &trans             &trans
+&kp LG(GRAVE)  &kp EXCLAMATION  &kp AT        &kp HASH       &kp DOLLAR        &kp PERCENT       &kp CARET        &kp AMPERSAND      &kp STAR          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans         &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4      &kp N5            &kp NUMBER_6     &kp NUMBER_7       &kp NUMBER_8      &kp NUMBER_9          &kp NUMBER_0           &none
+&kp TILDE      &kp KP_EQUAL     &kp PIPE      &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GREATER_THAN  &kp KP_PLUS           &kp KP_MINUS           &none
+                                              &trans         &trans            &trans            &trans           &trans             &trans
             >;
         };
 
